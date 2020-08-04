@@ -1,0 +1,101 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@400;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  background-color: #AF2830;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  font-family: 'Nunito', sans-serif;
+  min-height: 100vh;
+}
+
+.container {
+  width: 1021px;
+  background-color: #22161A;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  border-radius: 10px;
+}
+
+.card {
+  color: #B8B0B2;
+  width: 262px;
+}
+
+.title {
+  font-size: 36px;
+  font-style: normal;
+  font-weight: bold;
+  line-height: 49px;
+  margin-bottom: 15px;
+}
+
+.price {
+  font-size: 24px;
+  margin-bottom: 4px;
+  line-height: 33px;
+}
+
+.price + small {
+  display: block;
+  font-size: 16px;
+  line-height: 22px;
+  margin-bottom: 70px;
+}
+
+.profits {
+  list-style: none;
+  font-size: 18px;
+  line-height: 32px;
+  margin-bottom: 62px;
+}
+
+.card button {
+  width: 100%;
+  font-family: inherit;
+  padding: 19px 90px;
+  line-height: 25px;
+  font-size: 18px;
+  border-radius: 3px;
+  text-align: center;
+  cursor: pointer;
+}
+
+.start-now {
+  background: none;
+  color: #AF2830;
+  border: 1px solid #AF2830;
+}
+
+.try-it {
+  color: #FFFFFF;
+  background: #AF2830;
+  border: 1px solid #AF2830;
+}
+
+.path {
+  width: 1px;
+  height: 546px;
+  border: 1px solid #2D1F24;
+  margin: 93px 53px;
+}
+/*# sourceMappingURL=style.css.map */
